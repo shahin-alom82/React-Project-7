@@ -1,2 +1,1 @@
-# Live Link
-### gruesome-rub.surge.sh
+gruesome-rub.surge.sh
