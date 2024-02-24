@@ -1,1 +1,1 @@
-gruesome-rub.surge.sh
+http://gruesome-rub.surge.sh/
