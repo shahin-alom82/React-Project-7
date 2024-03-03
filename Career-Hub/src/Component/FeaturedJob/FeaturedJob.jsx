@@ -16,7 +16,7 @@ const FeaturedJob = () => {
                     }
                 </div>
             </div>
-            <button onClick={() => setSeeAll(job.length)} className={job.length === seAll ? "hidden" : "bg-blue-400 text-white h-12 mt-9 lg:ml-[600px] w-32 rounded font-bold"}>See All</button>
+            <button onClick={() => setSeeAll(job.length)} className={job.length === seAll ? "hidden" : "bg-blue-400 text-white h-16 mt-9 lg:ml-[600px] w-32 rounded font-bold"}>See All</button>
         </div>
     );
 };

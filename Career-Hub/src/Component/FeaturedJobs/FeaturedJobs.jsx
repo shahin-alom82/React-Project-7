@@ -3,17 +3,22 @@ import AOS from "aos";
 import 'aos/dist/aos.css';
 import { Link } from "react-router-dom";
 
+
 const FeaturedJobs = ({ job }) => {
     const { id, company_name, job_title, logo, location, salary } = job;
+
+
     useEffect(() => {
         AOS.init({
             duration: 2000,
             easing: "ease-in-out",
         });
     }, []);
+
+
     return (
         <div>
-            <div data-aos="fade-up" className="max-w-sm bg-white border border-gray-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-[340px]">
+            <div data-aos="fade-up-left" className="max-w-sm bg-white border border-gray-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-[340px]">
                 <a href="#">
                     <img className="rounded-t-lg mx-auto mt-6" src={logo} alt="" />
                 </a>
